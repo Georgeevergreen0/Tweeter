@@ -78,12 +78,7 @@ export default function Home() {
 
         <Stack spacing={4} direction='row' className={styles.mb_100}>
           <InputGroup>
-            <InputLeftElement
-              pointerEvents='none'
-              color='gray.300'
-              fontSize='1.2em'
-              children='@'
-            />
+            <InputLeftElement pointerEvents='none' color='gray.300' fontSize='1.2em'>@</InputLeftElement>
             <Input disabled={isLoading} placeholder='enter a Twitter @handle' value={inputValue} onChange={event => setInputValue(event.target.value)} />
           </InputGroup>
           <Button isLoading={isLoading} onClick={getTopic} >Search</Button>
