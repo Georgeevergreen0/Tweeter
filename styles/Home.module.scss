@@ -1,0 +1,73 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1a202c;
+  margin: 50px 0;
+
+  .link {
+    cursor: pointer;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    outline: none;
+    color: #57BBF5;
+    margin-left: 4px;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.33;
+  text-align: center;
+  color: #1a202c;
+  margin-top: 200px;
+  margin-bottom: 16px;
+
+}
+
+.subTitle {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.howToText {
+  color: #A0AEC0;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+
+.mb_100 {
+  margin-bottom: 50px;
+}
+
+.tweetContainer {
+  border-bottom: 1px solid #A0AEC0;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  text-align: left;
+  max-width: 80%;
+  margin: 20px auto;
+
+  .image {
+    width: 40px !important;
+    height: 40px !important;
+    flex: none !important;
+  }
+
+  .text {
+    margin-left: 10px;
+  }
+}
